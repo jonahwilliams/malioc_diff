@@ -1,13 +1,14 @@
 name: malioc_diff
-description: A sample command-line application.
+description: A tool for processing the output of malioc.
 version: 0.0.1
+repository: https://github.com/jonahwilliams/malioc_diff
 
 environment:
   sdk: '>=2.18.0 <3.0.0'
 
 dependencies:
-  args: any
-  colorize: any
+  args: ^2.3.1
+  colorize: ^3.0.0
 
 dev_dependencies:
   lints: ^2.0.0
